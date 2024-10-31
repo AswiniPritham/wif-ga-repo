@@ -21,7 +21,7 @@ jobs:
       - name: Start GCE VM
         run: |
           gcloud compute instances start wif-ga-sa --zone=us-central1-c
-  stop-vm:
+   stop-vm:
       needs: start-vm
       runs-on: ubuntu-latest
       permissions:
