@@ -2,7 +2,8 @@ name: Start and Stop GCP VM Instance
 
 on:
   workflow_dispatch:
- jobs:
+  
+jobs:
    start-vm:
     runs-on: ubuntu-latest
     permissions:
