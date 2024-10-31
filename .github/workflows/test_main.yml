@@ -17,7 +17,7 @@ jobs:
       with:
           create_credentials_file: 'true'
           workload_identity_provider: "projects/767086571535/locations/global/workloadIdentityPools/wif-ga-pool/providers/github"
-          service_account: 'SERVICE-ACCOUNT'
+          service_account: 'id-wf-ga-sa@model-height-439805-h4.iam.gserviceaccount.com'
     - id: 'gcloud'
       name: 'gcloud'
       run: |-
